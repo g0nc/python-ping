@@ -30,7 +30,7 @@ for sub in lines:
 	sub = sub.replace("\n", "")
 	check_ping(sub,site)
 
-#printando itens da lista online
+#show results
 for online in ons:
 	print("subdomain online: "+str(online))
 for offline in off:
